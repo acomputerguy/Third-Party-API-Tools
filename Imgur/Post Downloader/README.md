@@ -1,6 +1,6 @@
 # Image Downloader
 
-![alt text](https://github.com/acomputerguy/Imgur-/blob/master/Image%20Downloader/imgurpython_gui.PNG)
+![alt text](https://github.com/acomputerguy/Third-Party-API-Tools/blob/master/Imgur/Post%20Downloader/imgurpython_gui.PNG)
 
 ## Prerequisites
 
