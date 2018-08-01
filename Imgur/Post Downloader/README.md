@@ -1,5 +1,7 @@
 # Image Downloader
 
+Because scraping is never the answer!
+
 ![alt text](https://github.com/acomputerguy/Third-Party-API-Tools/blob/master/Imgur/Post%20Downloader/imgurpython_gui_dltab.PNG)
 
 ## Prerequisites
