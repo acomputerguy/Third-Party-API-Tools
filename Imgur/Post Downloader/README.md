@@ -20,20 +20,28 @@ PyQt5 and Designer (latest version)
     $ qttools5-dev-tools
 Python wrapper
 
-    $ pip install imgurpython 
+    $ python3 -m pip install imgurpython 
 Size converter
 
-    $ pip isntall hurry.filesize
+    $ python3 -m pip install hurry.filesize
 PyYAML
 
-    $ pip install pyyaml
-To write designer changes to the file do:
-
-    $ pyuic5 sample.ui > sample.py
+    $ python3 -m pip install pyyaml
 And run with
 
     $ python3 sample.py
     
+Development Process
+-----
+Open up the GUI Designer tool with
+
+    $ /usr/lib/x86_64-linux-gnu/qt5/bin/designer (or type in designer and replace 'qt4' with 'qt5'
+To write designer changes to the file do:
+
+    $ pyuic5 sample.ui > sample.py
+Run the python code with:
+
+    $ python3 sample.py
 Source to help get started
 
 https://www.codementor.io/deepaksingh04/design-simple-dialog-using-pyqt5-designer-tool-ajskrd09n
