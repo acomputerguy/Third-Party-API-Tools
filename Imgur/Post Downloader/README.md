@@ -10,23 +10,18 @@ Requires obtaining a client id and secret key from your Imgur account
 
 Required dependencies
 -----
-Python package manager
+Python package manager (for Python >=v3.0)
 
-    $ apt install python-pip
+    $ wget https://bootstrap.pypa.io/get-pip.py
+    $ python3 get-pip.py
 PyQt5 and Designer (latest version)
 
     $ apt-get install python3-pyqt5
     $ apt-get install pyqt5-dev-tools
-    $ qttools5-dev-tools
-Python wrapper
+    $ apt-get install qttools5-dev-tools
+Python wrapper, size converter, PyYAML
 
-    $ python3 -m pip install imgurpython 
-Size converter
-
-    $ python3 -m pip install hurry.filesize
-PyYAML
-
-    $ python3 -m pip install pyyaml
+    $ python3 -m pip install imgurpython, hurry.filesize, pyyaml
 And run with
 
     $ python3 sample.py
