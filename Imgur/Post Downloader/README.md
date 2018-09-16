@@ -4,52 +4,6 @@ Because scraping is never the answer!
 
 ![alt text](https://github.com/acomputerguy/Third-Party-API-Tools/blob/master/Imgur/Post%20Downloader/imgurpython_gui_dltab.PNG)
 
-## File Structure 
-
-.
-
-├── requirements.txt
-
-├── src
-
-│   ├── classes
-
-│   │   ├── calls
-
-│   │   │   └──  postDownloader.py
-
-│   │   ├── log
-
-│   │   │   └── loggingpost.py
-
-│   │   └── tabs
-
-│   │       ├── tabaccountaction.py
-
-│   │       ├── tabactivitylog.py
-
-│   │       ├── tabdownloadaction.py
-
-│   ├── config
-
-│   │   └── creds.yaml
-
-│   ├── gui.py
-
-│   ├── imgurDL.py
-
-│   ├── imgurDL.ui
-
-│   ├── logs
-
-│   │   ├── activity.log
-
-│   │   └── error.log
-
-└── └── media
-
-    └── imgur_icon.png
-
 ## Prerequisites
 
 Requires obtaining a client id and secret key from your Imgur account
